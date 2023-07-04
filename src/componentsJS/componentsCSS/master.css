@@ -1,0 +1,181 @@
+ /* NAVBAR */
+ .navbar{
+    background-color: #2874f0;
+    cursor:pointer;
+ }
+ #navbarSupportedContent ul a {
+    list-style: none;
+    text-decoration: none;
+    color:white;
+}
+/* HOME */
+.footer{
+    margin-top: 20px;
+    padding-top: 10px;
+    background:rgb(236, 234, 234);
+    height: 25vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer h1{color:blue;}
+
+#h2{
+    font-size: 24px;
+}
+#info{
+    margin-bottom: 25px;
+}
+/* RESUME */
+.fast-one{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height: 43vw;
+}
+.school{
+    display: flex;
+    justify-content: space-between;
+}
+.picture img{
+    padding-left: 30px;
+    height:22vw;
+    border-radius: 4%;
+}
+.text{
+    margin: 44px;
+    padding: 23px;
+    background-color: aquamarine;
+    border-radius: 10%;
+}
+.scecond-one{
+    height: 48vw;
+}
+.Therd-one{
+    height: 48vw;   
+}
+/* CONTACT */
+.card{
+    width: 18rem;
+    margin: 10px;
+    background:transparent;
+}
+.Container-contact{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 3px;
+    padding:24px;
+}
+.link{
+    padding:0px;
+    margin:0px;
+    height: 45px;
+    width: 250px;
+}
+.socal-link{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-color: blueviolet;
+    color: white;
+    cursor: pointer;
+}
+.socal-link:hover{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-color: green;
+    transition: .75s;
+}
+.socal-link a{
+    list-style: none;
+    text-decoration: none;
+    color:white;
+}
+/* Project */
+.Container-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding:10px;
+    
+}
+.card {
+    --font-color: #323232;
+    --font-color-sub: #666;
+    --bg-color: #fff;
+    --main-color: #323232;
+    --main-focus: #2d8cf0;
+    width: 300px;
+    height: auto;
+    background: var(--bg-color);
+    border: 2px solid var(--main-color);
+    box-shadow: 4px 4px var(--main-color);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 20px;
+    margin: 23px;
+    gap: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  
+  .card:last-child {
+    justify-content: flex-end;
+  }
+  
+  .card-img {
+    height: 150px;
+    /* background-image: url('./board-g04042984f_640.jpg'); */
+    /* background-position: center; */
+
+  }  
+  .img{ 
+    width: 250px;
+    height: 150px;
+  } 
+  .card-title {
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    color: var(--font-color);
+  }
+  
+  .card-subtitle {
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--font-color-sub);
+  }
+  
+  .card-divider {
+    width: 100%;
+    border: 1px solid var(--main-color);
+    border-radius: 50px;
+  }
+  
+  .card-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: blue;
+    transition: .75s;
+  }
+  .card-footer:hover {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: green;
+  }
+  
+  .card a {
+    list-style: none;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    color:white;
+    
+  }    
