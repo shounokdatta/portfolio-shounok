@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@900&display=swap');
+.text-center h1{
+    font-size: 90px;
+    background-image: url(./xyz.jpeg);
+    background-size: cover;
+    position: center;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color:transparent;
+  }
+  .container-text{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    display: flex;
+  }
+  .text{
+    position: relative;
+    margin:1vw;
+    font-size: 6vw;
+    text-transform: uppercase;
+    font-family: 'Noto Sans', sans-serif;
+  }
+  .first-text{
+     color:#1abc9c;
+  }
+  .sceond-text{
+    background-image: url(./benjamin-voros-phIFdC6lA4E-unsplash.jpg);
+    background-size: cover;
+    position: center;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color:transparent;
+
+    }
+ .sceond-text:before{
+          content:"" ;
+          position: absolute;
+          top:0;
+          left:0;
+          height: 100%;
+          width: 100%;
+          background-color: white;
+          border-left: 8px solid blueviolet;
+          animation: animet 8s steps(12) infinite;
+  }
+  @keyframes animet{
+    40%,60%{
+      left:100%;
+    }
+    100%{
+      left:0;
+    }
+  }
+  .Container{
+    display: flex;
+    flex-direction:space-between;
+    justify-content: left;
+    align-items: center;
+    height: 30vw;
+  }
+  .Container img{
+    width: 20vw;
+    margin-right: 85px;
+    margin-left: 77px;
+    border-radius: 10px;
+  }
+  
